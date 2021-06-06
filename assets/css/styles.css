@@ -236,3 +236,17 @@ input {
   }
 }
 
+@media (max-width: 576px) {
+  .map {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .map {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
